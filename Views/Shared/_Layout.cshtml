@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - AsanaBuilder</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Poppins"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous" />
+</head>
+<body>
+    <header id="mainHeader">
+        <nav class="mainNav">
+            <h1 class="navHeader">AsanaBuddy</h1>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signin.html">Sign In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer id="mainFooter" class="text-center">
+        <button class="sign-up" href="signup.html">Sign Up Today!</button>
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

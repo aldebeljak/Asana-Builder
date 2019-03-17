@@ -1,0 +1,178 @@
+﻿/*Universal Styles*/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.center-content {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    background-color: #ff7272;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    width: 100%;
+}
+/*Element styles*/
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    margin: 75px auto;
+    width: 90%;
+}
+
+/*Styling for mobile and screens smaller than 767px*/
+/*Nav bar*/
+#mainHeader {
+    background-image: url("../images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    padding: 25px 50px;
+}
+
+#header2 {
+    background-color: #ff8223;
+    color: white;
+    padding: 25px 50px;
+}
+
+.nav {
+    list-style: none;
+    float: right;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-item {
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.mainNav {
+    display: flex;
+    flex-direction: row;
+}
+
+.navHeader {
+    float: left;
+    margin: 0;
+    font-size: 40px;
+}
+
+/*Home page*/
+.fa-plus-circle {
+    color: #ff8223;
+}
+
+.fa-database {
+    color: #ff7272;
+}
+
+.fa-running {
+    color: #4903ba;
+}
+
+.container {
+    display: flex;
+}
+
+.about-item {
+    margin: 10px;
+}
+/*Pose page*/
+
+/*Sequence page*/
+
+/*Sign Up/In*/
+
+
+.sign-up {
+    background-color: #4903ba;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 15px 30px;
+    font-family: "Poppins";
+    margin-bottom: 75px;
+}
+
+    .sign-up:hover {
+        cursor: pointer;
+    }
+#sign-up-form,
+#sign-in-form {
+    width: 600px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.form-input {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.form-item {
+    margin: 10px 0px;
+}
+
+.form-content {
+    padding: 20px 50px;
+}
+
+#sign-up-header,
+#sign-in-header {
+    background-color: #ff7272;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+/*Footer*/
+
+#mainFooter {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/*Profile page*/
+
+/* Styling for larger screens */
+@media screen and (min-width: 767px) {
+
+}

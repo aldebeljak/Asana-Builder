@@ -1,0 +1,15 @@
+﻿@model  IList<Sequence>
+@{
+    ViewData["Title"] = "ViewSequences";
+    Layout = "~/Views/Shared/Layout2.cshtml";
+}
+
+<h2>Your Sequences</h2>
+<div 
+     @foreach (Sequence sequence in Model)
+     { 
+         <div>
+            <h3>@sequence.Name</h3>
+         </div>
+     }
+</div>
